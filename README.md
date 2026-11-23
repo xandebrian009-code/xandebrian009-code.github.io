@@ -23,6 +23,3 @@ portfolio/
 └── README.md
 ```
 
-## Atualizar o site
-
-Edite os arquivos, faça novo commit e push (ou envie os arquivos de novo pelo site). O GitHub Pages atualiza sozinho em instantes.
