@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexandre Gabriel | Portfólio</title>
+  <meta name="description" content="Portfólio de Alexandre Gabriel Bryan Ferreira Da Silva, estudante de Análise e Desenvolvimento de Sistemas na UDF.">
+  <meta name="theme-color" content="#F6F7F9">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container site-header__inner">
+      <a class="brand" href="#topo" aria-label="Alexandre Gabriel, início">Alexandre Gabriel</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav-toggle__label">Menu</span>
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" id="menu" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#praticando">Praticando</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="hero__hello">Oi, eu sou o Alexandre.</p>
+          <h1 class="hero__title">Estudante de sistemas, aprendendo a construir para a web.</h1>
+          <p class="hero__lead">
+            Curso Análise e Desenvolvimento de Sistemas na UDF e estou no segundo semestre.
+            Fora das aulas, gosto de games, música, futebol e de tempo com quem eu gosto.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#hobbies">Conhecer meus hobbies</a>
+            <a class="btn btn--ghost" href="#contato">Entrar em contato</a>
+          </div>
+        </div>
+
+        <figure class="hero__photo">
+          <img src="images/foto.jpg" alt="Retrato de Alexandre sorrindo, de camiseta preta" width="360" height="360">
+        </figure>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container split">
+        <h2 class="split__title" id="sobre-titulo">Sobre mim</h2>
+        <div class="split__body prose">
+          <p>
+            Meu nome completo é Alexandre Gabriel Bryan Ferreira Da Silva. Estou no começo da
+            graduação e cada semestre me mostra um pouco mais de como um programa nasce:
+            da ideia até a tela funcionando.
+          </p>
+          <p>
+            Este site é um dos meus projetos. Ele foi feito com HTML, CSS e JavaScript
+            e está publicado no GitHub Pages.
+          </p>
+          <p>
+            Fora do computador, sou o tipo de pessoa que sempre está com música tocando,
+            torce pelo Flamengo e não perde a chance de estar com a família e os amigos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section class="section" id="formacao" aria-labelledby="formacao-titulo">
+      <div class="container split">
+        <h2 class="split__title" id="formacao-titulo">Formação</h2>
+        <div class="split__body">
+          <dl class="facts">
+            <div class="facts__row">
+              <dt>Curso</dt>
+              <dd>Análise e Desenvolvimento de Sistemas</dd>
+            </div>
+            <div class="facts__row">
+              <dt>Instituição</dt>
+              <dd>UDF</dd>
+            </div>
+            <div class="facts__row">
+              <dt>Agora</dt>
+              <dd>Cursando o 2º semestre</dd>
+            </div>
+          </dl>
+
+          <ol class="steps" aria-label="Etapas do curso">
+            <li class="steps__item steps__item--done">
+              <span class="steps__name">1º semestre</span>
+              <span class="steps__state">Concluído</span>
+            </li>
+            <li class="steps__item steps__item--now" aria-current="step">
+              <span class="steps__name">2º semestre</span>
+              <span class="steps__state">Em andamento</span>
+            </li>
+            <li class="steps__item">
+              <span class="steps__name">Próximos semestres</span>
+              <span class="steps__state">Pela frente</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRATICANDO -->
+    <section class="section" id="praticando" aria-labelledby="praticando-titulo">
+      <div class="container split">
+        <h2 class="split__title" id="praticando-titulo">O que estou praticando</h2>
+        <div class="split__body">
+          <p class="muted">Tecnologias que uso nos estudos e em projetos como este site.</p>
+          <!-- Edite esta lista conforme for aprendendo mais coisas -->
+          <ul class="chips">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Lógica de programação</li>
+            <li>Git e GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES -->
+    <section class="section" id="hobbies" aria-labelledby="hobbies-titulo">
+      <div class="container split">
+        <h2 class="split__title" id="hobbies-titulo">Hobbies</h2>
+        <div class="split__body">
+          <ul class="hobbies">
+            <li class="hobby">
+              <h3 class="hobby__heading">
+                <button class="hobby__btn" type="button" aria-expanded="true" aria-controls="hobby-games">
+                  <img src="images/icons/gamepad.svg" alt="" width="40" height="40">
+                  <span class="hobby__name">Games e streaming</span>
+                  <span class="hobby__chev" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="hobby__panel" id="hobby-games">
+                <div class="hobby__inner">
+                  <p>Gosto de jogar e de assistir streamings. É o meu jeito de relaxar e de acompanhar o que está rolando na comunidade gamer.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="hobby">
+              <h3 class="hobby__heading">
+                <button class="hobby__btn" type="button" aria-expanded="false" aria-controls="hobby-musica">
+                  <img src="images/icons/headphones.svg" alt="" width="40" height="40">
+                  <span class="hobby__name">Música</span>
+                  <span class="hobby__chev" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="hobby__panel" id="hobby-musica">
+                <div class="hobby__inner">
+                  <p>Estou sempre escutando música: nos estudos, nos jogos, no caminho. Dificilmente você me encontra sem fone por perto.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="hobby">
+              <h3 class="hobby__heading">
+                <button class="hobby__btn" type="button" aria-expanded="false" aria-controls="hobby-futebol">
+                  <img src="images/icons/ball.svg" alt="" width="40" height="40">
+                  <span class="hobby__name">Futebol e Flamengo</span>
+                  <span class="hobby__chev" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="hobby__panel" id="hobby-futebol">
+                <div class="hobby__inner">
+                  <p>Sou torcedor nato do Flamengo. Quando dá, jogo bola com o meu tio.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="hobby">
+              <h3 class="hobby__heading">
+                <button class="hobby__btn" type="button" aria-expanded="false" aria-controls="hobby-familia">
+                  <img src="images/icons/people.svg" alt="" width="40" height="40">
+                  <span class="hobby__name">Família e amigos</span>
+                  <span class="hobby__chev" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="hobby__panel" id="hobby-familia">
+                <div class="hobby__inner">
+                  <p>Gosto muito de estar com a família e com os amigos. É o que dá sentido para o resto.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section section--last" id="contato" aria-labelledby="contato-titulo">
+      <div class="container split">
+        <h2 class="split__title" id="contato-titulo">Contato</h2>
+        <div class="split__body">
+          <p class="prose">Quer trocar uma ideia sobre estudos, projetos ou futebol? Fale comigo.</p>
+
+          <ul class="contact">
+            <li>
+              <span class="contact__label">E-mail</span>
+              <a href="mailto:xandebrian009@gmail.com" id="email-link">xandebrian009@gmail.com</a>
+              <button class="copy-btn" type="button" id="copy-email">Copiar e-mail</button>
+            </li>
+            <li>
+              <span class="contact__label">GitHub</span>
+              <a href="https://github.com/xandebrian009-code" target="_blank" rel="noopener">github.com/xandebrian009-code</a>
+            </li>
+            <li>
+              <span class="contact__label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/alexandre-bryan" target="_blank" rel="noopener">linkedin.com/in/alexandre-bryan</a>
+            </li>
+          </ul>
+          <p class="sr-only" role="status" id="copy-status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© <span id="ano">2026</span> Alexandre Gabriel Bryan Ferreira Da Silva</p>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
